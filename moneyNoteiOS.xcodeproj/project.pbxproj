@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		616EB917E65E81B4C79BA0B6 /* Pods_moneyNoteiOS_moneyNoteiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D086DA93581234276CFFF0 /* Pods_moneyNoteiOS_moneyNoteiOSUITests.framework */; };
+		90CBED5735870FC14546A038 /* Pods_moneyNoteiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B8DA8AA595B9E28A45EBC2 /* Pods_moneyNoteiOS.framework */; };
+		93D7CB49BD5F42E64C2B991E /* Pods_moneyNoteiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5248A78C17432395236B39CC /* Pods_moneyNoteiOSTests.framework */; };
 		C6626119296D94B5003160B2 /* ComsumptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6626118296D94B5003160B2 /* ComsumptionViewController.swift */; };
 		C662611B296D94C6003160B2 /* InvestmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662611A296D94C6003160B2 /* InvestmentViewController.swift */; };
 		C662611D296D94D1003160B2 /* WasteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662611C296D94D1003160B2 /* WasteViewController.swift */; };
@@ -21,6 +24,7 @@
 		C66E427829645E5100DCA150 /* moneyNoteiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E427729645E5100DCA150 /* moneyNoteiOSTests.swift */; };
 		C66E428229645E5100DCA150 /* moneyNoteiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E428129645E5100DCA150 /* moneyNoteiOSUITests.swift */; };
 		C66E428429645E5100DCA150 /* moneyNoteiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E428329645E5100DCA150 /* moneyNoteiOSUITestsLaunchTests.swift */; };
+		C6BB79EF297037BF003E6997 /* Consumption.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BB79EE297037BF003E6997 /* Consumption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24B8DA8AA595B9E28A45EBC2 /* Pods_moneyNoteiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moneyNoteiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9D179765D5AE174DDB3A4F /* Pods-moneyNoteiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moneyNoteiOSTests.release.xcconfig"; path = "Target Support Files/Pods-moneyNoteiOSTests/Pods-moneyNoteiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		5248A78C17432395236B39CC /* Pods_moneyNoteiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moneyNoteiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D8C6D1EC4304C7981A8487 /* Pods-moneyNoteiOS-moneyNoteiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moneyNoteiOS-moneyNoteiOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-moneyNoteiOS-moneyNoteiOSUITests/Pods-moneyNoteiOS-moneyNoteiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		66DCFFC6EC197A1667658263 /* Pods-moneyNoteiOS-moneyNoteiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moneyNoteiOS-moneyNoteiOSUITests.release.xcconfig"; path = "Target Support Files/Pods-moneyNoteiOS-moneyNoteiOSUITests/Pods-moneyNoteiOS-moneyNoteiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6C0FBCF0AEFEE1E0746F4A14 /* Pods-moneyNoteiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moneyNoteiOSTests.debug.xcconfig"; path = "Target Support Files/Pods-moneyNoteiOSTests/Pods-moneyNoteiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		77B5DE58A17C34533D1A987A /* Pods-moneyNoteiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moneyNoteiOS.debug.xcconfig"; path = "Target Support Files/Pods-moneyNoteiOS/Pods-moneyNoteiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		77D086DA93581234276CFFF0 /* Pods_moneyNoteiOS_moneyNoteiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moneyNoteiOS_moneyNoteiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D84EBEDEB64A39D0C897BA4 /* Pods-moneyNoteiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moneyNoteiOS.release.xcconfig"; path = "Target Support Files/Pods-moneyNoteiOS/Pods-moneyNoteiOS.release.xcconfig"; sourceTree = "<group>"; };
 		C6626118296D94B5003160B2 /* ComsumptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComsumptionViewController.swift; sourceTree = "<group>"; };
 		C662611A296D94C6003160B2 /* InvestmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentViewController.swift; sourceTree = "<group>"; };
 		C662611C296D94D1003160B2 /* WasteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasteViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +72,7 @@
 		C66E427D29645E5100DCA150 /* moneyNoteiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moneyNoteiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C66E428129645E5100DCA150 /* moneyNoteiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneyNoteiOSUITests.swift; sourceTree = "<group>"; };
 		C66E428329645E5100DCA150 /* moneyNoteiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneyNoteiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6BB79EE297037BF003E6997 /* Consumption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consumption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90CBED5735870FC14546A038 /* Pods_moneyNoteiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93D7CB49BD5F42E64C2B991E /* Pods_moneyNoteiOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				616EB917E65E81B4C79BA0B6 /* Pods_moneyNoteiOS_moneyNoteiOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5261830B192B7E55F7A374FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77B5DE58A17C34533D1A987A /* Pods-moneyNoteiOS.debug.xcconfig */,
+				8D84EBEDEB64A39D0C897BA4 /* Pods-moneyNoteiOS.release.xcconfig */,
+				57D8C6D1EC4304C7981A8487 /* Pods-moneyNoteiOS-moneyNoteiOSUITests.debug.xcconfig */,
+				66DCFFC6EC197A1667658263 /* Pods-moneyNoteiOS-moneyNoteiOSUITests.release.xcconfig */,
+				6C0FBCF0AEFEE1E0746F4A14 /* Pods-moneyNoteiOSTests.debug.xcconfig */,
+				2D9D179765D5AE174DDB3A4F /* Pods-moneyNoteiOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		929D6664A9E409B0FF7E779E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24B8DA8AA595B9E28A45EBC2 /* Pods_moneyNoteiOS.framework */,
+				77D086DA93581234276CFFF0 /* Pods_moneyNoteiOS_moneyNoteiOSUITests.framework */,
+				5248A78C17432395236B39CC /* Pods_moneyNoteiOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C66E425429645E4F00DCA150 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +133,8 @@
 				C66E427629645E5100DCA150 /* moneyNoteiOSTests */,
 				C66E428029645E5100DCA150 /* moneyNoteiOSUITests */,
 				C66E425E29645E4F00DCA150 /* Products */,
+				5261830B192B7E55F7A374FF /* Pods */,
+				929D6664A9E409B0FF7E779E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,17 +151,14 @@
 		C66E425F29645E4F00DCA150 /* moneyNoteiOS */ = {
 			isa = PBXGroup;
 			children = (
+				C6BB79ED297036CD003E6997 /* Controllers */,
+				C6BB79EC297036B1003E6997 /* Views */,
+				C6BB79EB2970368E003E6997 /* Data Model */,
 				C6626120296EF489003160B2 /* ConsumptionTableViewCell.swift */,
 				C66E426029645E4F00DCA150 /* AppDelegate.swift */,
 				C66E426229645E4F00DCA150 /* SceneDelegate.swift */,
-				C66E426429645E4F00DCA150 /* MainMenuViewController.swift */,
-				C66E426629645E4F00DCA150 /* Main.storyboard */,
 				C662611E296EEAF9003160B2 /* CornerRadiusBtn.swift */,
-				C6626118296D94B5003160B2 /* ComsumptionViewController.swift */,
-				C662611A296D94C6003160B2 /* InvestmentViewController.swift */,
-				C662611C296D94D1003160B2 /* WasteViewController.swift */,
 				C66E426929645E5100DCA150 /* Assets.xcassets */,
-				C66E426B29645E5100DCA150 /* LaunchScreen.storyboard */,
 				C66E426E29645E5100DCA150 /* Info.plist */,
 			);
 			path = moneyNoteiOS;
@@ -142,6 +181,34 @@
 			path = moneyNoteiOSUITests;
 			sourceTree = "<group>";
 		};
+		C6BB79EB2970368E003E6997 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6BB79EE297037BF003E6997 /* Consumption.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		C6BB79EC297036B1003E6997 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C66E426629645E4F00DCA150 /* Main.storyboard */,
+				C66E426B29645E5100DCA150 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C6BB79ED297036CD003E6997 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C66E426429645E4F00DCA150 /* MainMenuViewController.swift */,
+				C6626118296D94B5003160B2 /* ComsumptionViewController.swift */,
+				C662611A296D94C6003160B2 /* InvestmentViewController.swift */,
+				C662611C296D94D1003160B2 /* WasteViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C66E428729645E5100DCA150 /* Build configuration list for PBXNativeTarget "moneyNoteiOS" */;
 			buildPhases = (
+				280A62434514C784ADFCB884 /* [CP] Check Pods Manifest.lock */,
 				C66E425929645E4F00DCA150 /* Sources */,
 				C66E425A29645E4F00DCA150 /* Frameworks */,
 				C66E425B29645E4F00DCA150 /* Resources */,
+				9D56298FEA8C7DCA60F902F5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,6 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C66E428A29645E5100DCA150 /* Build configuration list for PBXNativeTarget "moneyNoteiOSTests" */;
 			buildPhases = (
+				29C68BD87E78C2FF1329388F /* [CP] Check Pods Manifest.lock */,
 				C66E426F29645E5100DCA150 /* Sources */,
 				C66E427029645E5100DCA150 /* Frameworks */,
 				C66E427129645E5100DCA150 /* Resources */,
@@ -184,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C66E428D29645E5100DCA150 /* Build configuration list for PBXNativeTarget "moneyNoteiOSUITests" */;
 			buildPhases = (
+				3AC69375B25FE08E20DD3063 /* [CP] Check Pods Manifest.lock */,
 				C66E427929645E5100DCA150 /* Sources */,
 				C66E427A29645E5100DCA150 /* Frameworks */,
 				C66E427B29645E5100DCA150 /* Resources */,
+				A08B377B6467C69749C29AF3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,12 +340,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		280A62434514C784ADFCB884 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moneyNoteiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29C68BD87E78C2FF1329388F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moneyNoteiOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AC69375B25FE08E20DD3063 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moneyNoteiOS-moneyNoteiOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D56298FEA8C7DCA60F902F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moneyNoteiOS/Pods-moneyNoteiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moneyNoteiOS/Pods-moneyNoteiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-moneyNoteiOS/Pods-moneyNoteiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A08B377B6467C69749C29AF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moneyNoteiOS-moneyNoteiOSUITests/Pods-moneyNoteiOS-moneyNoteiOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moneyNoteiOS-moneyNoteiOSUITests/Pods-moneyNoteiOS-moneyNoteiOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-moneyNoteiOS-moneyNoteiOSUITests/Pods-moneyNoteiOS-moneyNoteiOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C66E425929645E4F00DCA150 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C66E426529645E4F00DCA150 /* MainMenuViewController.swift in Sources */,
+				C6BB79EF297037BF003E6997 /* Consumption.swift in Sources */,
 				C662611B296D94C6003160B2 /* InvestmentViewController.swift in Sources */,
 				C66E426129645E4F00DCA150 /* AppDelegate.swift in Sources */,
 				C6626121296EF489003160B2 /* ConsumptionTableViewCell.swift in Sources */,
@@ -452,6 +628,7 @@
 		};
 		C66E428829645E5100DCA150 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B5DE58A17C34533D1A987A /* Pods-moneyNoteiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +656,7 @@
 		};
 		C66E428929645E5100DCA150 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D84EBEDEB64A39D0C897BA4 /* Pods-moneyNoteiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -506,6 +684,7 @@
 		};
 		C66E428B29645E5100DCA150 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C0FBCF0AEFEE1E0746F4A14 /* Pods-moneyNoteiOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -525,6 +704,7 @@
 		};
 		C66E428C29645E5100DCA150 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D9D179765D5AE174DDB3A4F /* Pods-moneyNoteiOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -544,6 +724,7 @@
 		};
 		C66E428E29645E5100DCA150 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D8C6D1EC4304C7981A8487 /* Pods-moneyNoteiOS-moneyNoteiOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -561,6 +742,7 @@
 		};
 		C66E428F29645E5100DCA150 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66DCFFC6EC197A1667658263 /* Pods-moneyNoteiOS-moneyNoteiOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

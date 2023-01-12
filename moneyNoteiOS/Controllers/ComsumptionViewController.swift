@@ -6,14 +6,19 @@
 //
 
 import UIKit
+import RealmSwift
 
 class ComsumptionViewController: UIViewController {
 
     @IBOutlet weak var consumptionTableView: UITableView!
     
+    @IBOutlet weak var addBtn: UIButton!
+    
     let product:[String] = ["물"]
     
     let price:[String] = ["1000원"]
+    
+    let realm = try! Realm()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,9 +26,17 @@ class ComsumptionViewController: UIViewController {
         // delegate 전달자 == > 이벤트 처리, 데이터 소스 처리 현재 클래스에서 하겠다.
         consumptionTableView.delegate = self
         consumptionTableView.dataSource = self
+        
+        // addBtn 그림자 처리
+        addBtn.layer.shadowColor = UIColor.gray.cgColor
+        addBtn.layer.shadowOpacity = 1.0
+        addBtn.layer.shadowOffset = CGSize.zero
+        addBtn.layer.shadowRadius = 5
+
     }
     
    
+    //MARK: - Adddd 
     
 
 }
